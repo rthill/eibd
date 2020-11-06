@@ -1,8 +1,9 @@
 FROM debian:jessie-slim
 
-LABEL maintainer="Emmanuel BRUNO <emmanuel.bruno@univ-tln.fr>"
+LABEL maintainer="Raoul THILL <raoul.thill_at_gmail.com>"
 
 #Adapted from https://github.com/TimWeyand/eibd/blob/master/Dockerfile
+#Adapted from https://github.com/emmanuelbruno/eibd/blob/master/Dockerfile
 
 EXPOSE 6720
 ARG GATEWAY_IP 
