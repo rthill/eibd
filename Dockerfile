@@ -32,7 +32,4 @@ rm -rf $SOURCEDIR
 RUN groupadd -r eibd && useradd -r -g eibd eibd
 USER eibd
 
-ENTRYPOINT eibd --trace=1 -D -T -R -S -i iptn:${GATEWAY_IP}:3671
-
-
-
+ENTRYPOINT eibd -T -S -i ipt:${GATEWAY_IP}
