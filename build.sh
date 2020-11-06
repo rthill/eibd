@@ -1,1 +1,1 @@
-docker build -t brunoe/eibd .
+docker build -t rthill/eibd .
